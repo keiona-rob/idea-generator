@@ -19,3 +19,26 @@ CTA section: A big friendly button that doesn’t do anything yet—this will be
 
 footer: Your name or brand + copyright
 
+## Part 2: Style the Experience (CSS + Flexbox + Box Model)
+Your Task:
+- Make your site visually engaging and clean to navigate.
+
+- Link a CSS file and style it from scratch.
+
+Show off:
+
+- Box model with padding, margin, border
+
+- Fixed widths or responsive containers
+
+- RGBA color for transparent backgrounds (use it in your hero or CTA)
+
+- A reset/override of browser default styles (e.g., normalize **>ul<**, style your **>button<**)
+
+- Use Flexbox in at least one section:
+
+- Horizontally align nav links
+
+- Vertically center your hero content
+
+- Lay out example ideas side by side
