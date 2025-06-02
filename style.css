@@ -1,5 +1,9 @@
 nav {
     text-align: center;
+    a:hover{
+      color:#cd7ed3
+    }
+    font-size: larger;
 }
  .flex-container{
    display:flex;
@@ -31,9 +35,10 @@ background: radial-gradient(circle, rgba(204, 204, 204, 1) 48%, rgba(148, 187, 2
   transform: translate(-50%, -50%);  
   color: #070707; 
   padding: 10px 20px; 
-  font-size: 20px; 
+  font-size: 19px; 
   text-align: center; 
   margin-left: 6px;
+  filter: drop-shadow(6px 3px 4px #5f5d5f);
 }
 /* https://www.bannerbear.com/blog/how-to-overlay-text-on-an-image-in-html-and-css/#:~:text=Overlaying%20Text%20on%20an%20Image%20in%20HTML%20and%20CSS,-HTML&text=In%20the%20body%20section%2C%20create,and%20add%20your%20text%20inside.&text=We%20know%20that%20in%20real,to%20contain%20an%20image%20only. */
 
@@ -45,7 +50,16 @@ h1{
 }
 #info{
   text-align: center;
+  margin-top: 50px;
 }
 .card{
   filter: drop-shadow(9px 5px 3px #5f5d5f);
+}
+button:hover{
+  background-color:#cd7ed3
+}
+.btn:hover{
+  background-color:#cd7ed3;
+  color:black ;
+  
 }
