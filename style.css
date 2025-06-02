@@ -3,7 +3,7 @@ nav {
     a:hover{
       color:#cd7ed3
     }
-    font-size: larger;
+    font-size: medium;
 }
  .flex-container{
    display:flex;
