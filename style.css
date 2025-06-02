@@ -52,6 +52,7 @@ h1{
 #info{
   text-align: center;
   margin-top: 50px;
+ filter: drop-shadow(2px 3px 1px #cd7ed3); 
 }
 .card{
   filter: drop-shadow(9px 5px 3px #5f5d5f);
