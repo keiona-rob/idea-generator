@@ -15,6 +15,7 @@ background: radial-gradient(circle, rgba(204, 204, 204, 1) 48%, rgba(148, 187, 2
   margin-top: 30px;
    position: relative ;
   display: inline-block;
+  filter: drop-shadow(9px 5px 3px #5f5d5f);
 }
 
 .image-container img {
@@ -40,7 +41,11 @@ h1{
   font-family: raleway;
   margin-left: 150px;
   margin-top: 20px;
+  filter: drop-shadow(2px 3px 1px #cd7ed3);
 }
 #info{
   text-align: center;
+}
+.card{
+  filter: drop-shadow(9px 5px 3px #5f5d5f);
 }
