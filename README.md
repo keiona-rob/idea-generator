@@ -51,3 +51,80 @@ Submit:
 - GitHub repo link
 
 - GitHub Pages link
+
+
+💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡
+
+
+
+Bring Your Idea Generator to Life with JavaScript
+Objective
+Use JavaScript to add interactivity to your previously built project.
+
+Practice using arrays, DOM manipulation, and event listeners.
+
+Lay the groundwork for more advanced features like animations and state next week.
+
+The Challenge
+Your “Stuck? Try this!” page needs a brain! This week, you’ll add JavaScript so that when a user clicks the big button, a random creative idea appears.
+
+Part 1: Setup & Data
+Tasks
+Create a new script.js file and link it to your index.html.
+
+Store your idea data in one of the following ways:
+
+As a JavaScript array inside script.js
+
+OR in a separate ideas.json file and fetch it
+
+Example data format (in JS):
+
+const ideas = [
+  "Paint something using only 3 colors.",
+  "Write a haiku about your breakfast.",
+  "Take a photo of something ordinary and make it look epic.",
+  "Write a 2-minute monologue for a fictional villain."
+];
+Part 2: Make It Interactive
+Tasks
+Add a click event listener to the CTA button.
+
+When clicked:
+
+Pick a random idea from your list
+
+Display it inside a designated container on the page (e.g., an empty <div id="idea-box">)
+
+ 
+Part 3: Add Some Flair (Optional but Encouraged)
+Pick one or more enhancements:
+
+Add a fade-in or slide-in animation when a new idea appears
+
+Prevent repeats until all ideas have been shown
+
+Include a “Save this idea” or “❤️” button to favorite ideas
+
+Store favorites in localStorage
+
+✅ Submission Checklist
+Your button shows a new idea when clicked
+
+You used JavaScript (no hardcoded idea-swapping in HTML)
+
+Your project still looks clean and styled
+
+You used Git properly with ACP commits
+
+Submission
+Submit:
+
+GitHub repo link
+
+GitHub Pages live link
+
+
+
+
+
