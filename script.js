@@ -75,7 +75,7 @@ const ideas = [
 const button = document.getElementById('bigButton');
 const displayArea = document.getElementById('ideasDiv');
 
-// const myArray = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'];
+
 
 button.addEventListener('click', () => {
   const randomNumber = Math.floor(Math.random() * ideas.length);
@@ -83,5 +83,8 @@ button.addEventListener('click', () => {
   displayArea.textContent = randomItem;
     div = document.getElementById('bottom');
   div.style.display = 'none';
+   button = document.getElementById('bigButton');
+  button.style.display = 'block';
+  
   
 });
