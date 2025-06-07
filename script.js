@@ -83,8 +83,7 @@ button.addEventListener('click', () => {
   displayArea.textContent = randomItem;
     div = document.getElementById('bottom');
   div.style.display = 'none';
-   button = document.getElementById('bigButton');
-  button.style.display = 'block';
-  
+displayArea.style.fontFamily = "savate"
+
   
 });
