@@ -1,8 +1,8 @@
 const ideas = [
-  "Paint something using only 3 colors.",
-  "Write a haiku about your breakfast.",
-  "Take a photo of something ordinary and make it look epic.",
-  "Write a 2-minute monologue for a fictional villain."
+  { text: 'Paint something using only 3 colors.', image: "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"},
+  { text: "Write a haiku about your breakfast.", image: "https://plus.unsplash.com/premium_photo-1661301044600-8856088002c7?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d3JpdGV8ZW58MHx8MHx8fDA%3D"},
+  {text: "Take a photo of something ordinary and make it look epic.", image: "light-bulb.png"},
+  {text: "Write a 2-minute monologue for a fictional villain.", image: "light-bulb.png"}
 ]
 
 // addEventListener.button onclick run getRandomFunction and display in card 
@@ -74,13 +74,18 @@ const ideas = [
 
 const button = document.getElementById('bigButton');
 const displayArea = document.getElementById('ideasDiv');
+const itemImage = document.getElementById('itemImage');
+const itemWord = document.getElementById('itemWord');
 
 
 
 button.addEventListener('click', () => {
   const randomNumber = Math.floor(Math.random() * ideas.length);
   const randomItem = ideas[randomNumber];
-  displayArea.textContent = randomItem;
+  // displayArea.textContent = randomItem;
+  itemImage.src = randomItem.image;
+itemText.textContent = randomItem.text;
+
     div = document.getElementById('bottom');
   div.style.display = 'none';
 displayArea.style.fontFamily = "savate"
