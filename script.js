@@ -1,8 +1,8 @@
 const ideas = [
-  { text: 'Paint something using only 3 colors.', image: "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"},
-  { text: "Write a haiku about your breakfast.", image: "https://plus.unsplash.com/premium_photo-1661301044600-8856088002c7?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d3JpdGV8ZW58MHx8MHx8fDA%3D"},
-  {text: "Take a photo of something ordinary and make it look epic.", image: "light-bulb.png"},
-  {text: "Write a 2-minute monologue for a fictional villain.", image: "light-bulb.png"}
+  { text: 'Paint something using only 3 colors.', image: "https://images.unsplash.com/photo-1730212239673-e404f5005317?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTgyfHxwYWludHxlbnwwfDJ8MHx8fDA%3D"},
+  { text: "Write a haiku about your breakfast.", image: "https://images.unsplash.com/photo-1585693907431-69d82bdced6f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d3JpdGUlMjAlMjBicmVha2Zhc3R8ZW58MHwyfDB8fHww"},
+  {text: "Take a photo of something ordinary and make it look epic.", image: "https://images.unsplash.com/photo-1489423561257-34e31d8836b2?q=80&w=2101&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"},
+  {text: "Write a 2-minute monologue for a fictional villain.", image: "https://images.unsplash.com/photo-1627487603068-289eb7ebf5c1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRlJTIwdmlsbGFufGVufDB8MnwwfHx8MA%3D%3D"}
 ]
 
 // addEventListener.button onclick run getRandomFunction and display in card 
