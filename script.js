@@ -91,7 +91,7 @@ itemText.textContent = randomItem.text;
 displayArea.style.fontFamily = "savate";
 displayArea.style.color = "#cd7ed3";
 displayArea.style.background = "rgb(64, 150, 229, 0.2)";
-displayArea.style.filter = "drop-shadow(9px 5px 3px black)";
+displayArea.style.filter = "drop-shadow(5px 5px 3px black)";
   
 });
 
