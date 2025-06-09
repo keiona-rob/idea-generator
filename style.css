@@ -1,9 +1,22 @@
 nav {
     text-align: center;
     a:hover{
-      color:#cd7ed3
+      color:#170e94
+    
     }
     font-size: medium;
+    
+    border-radius: 50%;
+    font-family: savate ;
+    ;
+}
+nav a{
+background-color: #cd7ed3;
+color: black;
+text-decoration: none;
+padding: 5px;
+border-radius: 2px;
+
 }
  .flex-container{
    display:flex;
