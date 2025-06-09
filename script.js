@@ -5,6 +5,7 @@ const ideas = [
   {text: "Write a 2-minute monologue for a fictional villain.", image: "https://images.unsplash.com/photo-1627487603068-289eb7ebf5c1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdyaXRlJTIwdmlsbGFufGVufDB8MnwwfHx8MA%3D%3D"}
 ]
 
+
 // addEventListener.button onclick run getRandomFunction and display in card 
 
 // array of cards with picture and ideas, doesn't have to be a card, could just fill the page or be a p tag
@@ -92,6 +93,10 @@ displayArea.style.fontFamily = "savate";
 displayArea.style.color = "#cd7ed3";
 displayArea.style.background = "rgb(64, 150, 229, 0.2)";
 displayArea.style.filter = "drop-shadow(5px 5px 3px black)";
+document.querySelector('.animateMe').classList.add('animate__fadeIn', 'animate__animated');
+    setTimeout(function() {
+        document.querySelector('.animateMe').classList.remove('animate__fadeIn', 'animate__animated');
+    }, 1000);;
   
 });
 
